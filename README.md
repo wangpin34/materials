@@ -6,7 +6,7 @@
 
 ### 单元测试
 * [Testing With Mocha, Sinon.js & Mocking Request](http://bulkan-evcimen.com/testing_with_mocha_sinon)
-
+* [sinon 官方文档](http://sinonjs.org/docs/)
 
 ## js
 
