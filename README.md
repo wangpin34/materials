@@ -24,7 +24,7 @@
 
 
 ## 网络
-
+* [不同网段的访问问题](http://networkengineering.stackexchange.com/questions/10530/ping-between-different-subnet-across-a-link)
 
 ## 算法
 
