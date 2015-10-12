@@ -3,6 +3,7 @@
 
 ## javascript
 * [q 文档](http://documentup.com/kriskowal/q/) q是功能强大的promise库，可以使用在浏览器和node
+* [underscore 文档](http://underscorejs.org/)
 
 ## nodejs
 
