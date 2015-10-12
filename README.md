@@ -12,8 +12,8 @@
 
 ### 单元测试
 * [Testing With Mocha, Sinon.js & Mocking Request](http://bulkan-evcimen.com/testing_with_mocha_sinon)
-* [node 单元测试入门](http://blog.csdn.net/wp270280522/article/details/48734409)
-* [sinon 官方文档](http://sinonjs.org/docs/)
+* [node 单元测试入门](http://blog.csdn.net/wp270280522/article/details/48734409) 鄙人写的小文章
+* [sinon 官方文档](http://sinonjs.org/docs/) 用于在测试中模拟数据库，http和任何你想要模拟的函数
 * [chai 官方文档](http://chaijs.com/) 简单好用的断言库
 
 
