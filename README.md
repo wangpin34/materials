@@ -12,6 +12,7 @@
 
 ### 单元测试
 * [Testing With Mocha, Sinon.js & Mocking Request](http://bulkan-evcimen.com/testing_with_mocha_sinon)
+* [node 单元测试入门](http://blog.csdn.net/wp270280522/article/details/48734409)
 * [sinon 官方文档](http://sinonjs.org/docs/)
 * [chai 官方文档](http://chaijs.com/) 简单好用的断言库
 
