@@ -1,8 +1,15 @@
 # learning-materials
 前端开发学习资料
 
+## 社区
+独学而无友，则孤陋而寡闻。
+* [前端网](http://www.w3cfuns.com/portal.php) 专业的前端社区，可以看到很多优秀的前端作品
+* [cnode](https://cnodejs.org/) [网站代码](https://github.com/cnodejs/nodeclub/)
+* [nodejs 中文社区](http://www.nodejs.net/)
+
 ## javascript
-* [q 文档](http://documentup.com/kriskowal/q/) q是功能强大的promise库，可以使用在浏览器和node
+* [ES6 入门 by 阮一峰](http://es6.ruanyifeng.com/)
+* [q 文档](http://documentup.com/kriskowal/q/) q是功能强大的promise库，可以使用在浏览器和node。文档也阐述了一下promise的设计思想。
 * [underscore 文档](http://underscorejs.org/) 提供了很多函数的库，不同的是，它并没有修改任何原生的对象，比较干净。
 
 ## nodejs
