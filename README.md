@@ -11,6 +11,9 @@
 * [ES6 入门 by 阮一峰](http://es6.ruanyifeng.com/)
 * [q 文档](http://documentup.com/kriskowal/q/) q是功能强大的promise库，可以使用在浏览器和node。文档也阐述了一下promise的设计思想。
 * [underscore 文档](http://underscorejs.org/) 提供了很多函数的库，不同的是，它并没有修改任何原生的对象，比较干净。
+* 代码风格
+代码风格仅供参考，只要结构清晰，易于阅读，任何代码风格都是可以的。但是风格一致是非常必要的。
+  * [google js style](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 
 ## nodejs
 
