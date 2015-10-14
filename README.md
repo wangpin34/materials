@@ -18,6 +18,7 @@
 * [邱俊涛 I code it] (http://icodeit.org/)
 * [lucida] (http://zh.lucida.me/blog)
 * [司徒正美] (http://www.cnblogs.com/rubylouvre/)
+* [淘宝 ued] (http://ued.taobao.org/blog/)
 
 ## javascript
 * [ES6 入门 by 阮一峰](http://es6.ruanyifeng.com/)
