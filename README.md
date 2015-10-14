@@ -7,6 +7,18 @@
 * [cnode](https://cnodejs.org/) [网站代码](https://github.com/cnodejs/nodeclub/)
 * [nodejs 中文社区](http://www.nodejs.net/)
 
+## 热门博客
+排名不分先后
+* [阮一峰的网络日志] (http://www.ruanyifeng.com/blog/)
+* [玉伯 lifesinger] (https://github.com/lifesinger/lifesinger.github.io/issues)
+* [粉丝日志] (http://blog.fens.me/)
+* [掌心] (http://www.zhanxin.info/)
+* [云路] (http://www.iyunlu.com/view/)
+* [张云龙] (https://github.com/fouber/blog)
+* [邱俊涛 I code it] (http://icodeit.org/)
+* [lucida] (http://zh.lucida.me/blog)
+* [司徒正美] (http://www.cnblogs.com/rubylouvre/)
+
 ## javascript
 * [ES6 入门 by 阮一峰](http://es6.ruanyifeng.com/)
 * [q 文档](http://documentup.com/kriskowal/q/) q是功能强大的promise库，可以使用在浏览器和node。文档也阐述了一下promise的设计思想。
@@ -33,6 +45,9 @@
 
 
 ## html
+
+## 架构
+* [理解RESTful架构] (http://www.ruanyifeng.com/blog/2011/09/restful)
 
 
 ## http
