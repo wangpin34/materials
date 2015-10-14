@@ -16,6 +16,8 @@
   * [google js style](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 
 ## nodejs
+* [node 7天教程](http://www.lvtao.net/content/book/node.js.htm)
+* [node 从零开始系列文章] (http://blog.fens.me/series-nodejs/)
 
 ### 数据库
 * [sequelzie 官方文档](http://sequelize.readthedocs.org/en/latest/) sequelize是成熟的orm框架。
