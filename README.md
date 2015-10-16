@@ -7,6 +7,9 @@
 * [cnode](https://cnodejs.org/) [网站代码](https://github.com/cnodejs/nodeclub/)
 * [nodejs 中文社区](http://www.nodejs.net/)
 
+## 在线学习
+* [w3school](http://www.w3school.com.cn/index.html) 简单朴素，不罗嗦。
+
 ## 热门博客
 排名不分先后
 * [阮一峰的网络日志] (http://www.ruanyifeng.com/blog/)
@@ -21,7 +24,11 @@
 * [淘宝 ued] (http://ued.taobao.org/blog/)
 
 ## javascript
-* [ES6 入门 by 阮一峰](http://es6.ruanyifeng.com/)
+
+### 在线图书
+* [ES6 入门](http://es6.ruanyifeng.com/)
+
+### 文档
 * [q 文档](http://documentup.com/kriskowal/q/) q是功能强大的promise库，可以使用在浏览器和node。文档也阐述了一下promise的设计思想。
 * [underscore 文档](http://underscorejs.org/) 提供了很多函数的库，不同的是，它并没有修改任何原生的对象，比较干净。
 * 代码风格
