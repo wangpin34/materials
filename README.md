@@ -43,6 +43,9 @@
 ### web框架
 * express api [英文](http://expressjs.com/4x/api.html) [中文](http://www.expressjs.com.cn/4x/api.html)
 
+### html模板
+* [jade api] (http://jade-lang.com/reference/)
+
 ### 数据库
 * [sequelzie 官方文档](http://sequelize.readthedocs.org/en/latest/) sequelize是成熟的orm框架。
 
@@ -57,6 +60,12 @@
 
 
 ## html
+
+## 浏览器
+
+### 显示文档，图片
+* [如何在浏览器中显示word文档] (http://stackoverflow.com/questions/9418850/how-to-display-a-word-document-using-fancybox)
+
 
 ## 架构
 * [理解RESTful架构] (http://www.ruanyifeng.com/blog/2011/09/restful)
