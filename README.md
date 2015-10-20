@@ -72,7 +72,7 @@
 
 
 ## http
-
+* [status code 定义] (http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 
 ## 网络
 * [不同网段的访问问题](http://networkengineering.stackexchange.com/questions/10530/ping-between-different-subnet-across-a-link)
