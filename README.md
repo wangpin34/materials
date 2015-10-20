@@ -41,7 +41,7 @@
 * [node 从零开始系列文章] (http://blog.fens.me/series-nodejs/)
 
 ### web框架
-* express api [英文](http://expressjs.com/guide/routing.html) [中文](http://www.expressjs.com.cn/4x/api.html)
+* express api [英文](http://expressjs.com/4x/api.html) [中文](http://www.expressjs.com.cn/4x/api.html)
 
 ### 数据库
 * [sequelzie 官方文档](http://sequelize.readthedocs.org/en/latest/) sequelize是成熟的orm框架。
