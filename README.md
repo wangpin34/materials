@@ -63,9 +63,15 @@
 
 ## 浏览器
 
+了解浏览器的细节，特性。
+
 ### 显示文档，图片
 * [如何在浏览器中显示word文档] (http://stackoverflow.com/questions/9418850/how-to-display-a-word-document-using-fancybox)
 
+## 优化
+
+* ***前端优化是一个循序渐进的过程***。
+* ***只要适合当前技术和业务的优化方案，就是好的方案***。
 
 ## 架构
 * [理解RESTful架构] (http://www.ruanyifeng.com/blog/2011/09/restful)
