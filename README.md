@@ -39,6 +39,26 @@
 ## nodejs
 * [node 7天教程](http://www.lvtao.net/content/book/node.js.htm)
 * [node 从零开始系列文章] (http://blog.fens.me/series-nodejs/)
+* [best practices](http://www.innofied.com/node-js-best-practices/)
+* [创建模块共享的常量](http://stackoverflow.com/questions/8595509/how-do-you-share-constants-in-nodejs-modules)
+  
+  个人比较推荐这种方式
+  ```
+  module.exports = Object.freeze({
+    MY_CONSTANT: 'some value',
+    ANOTHER_CONSTANT: 'another value'
+  });
+  ```
+  在其他模块使用：
+  ```
+  var constants = require('./constants');
+
+  console.log(constants.MY_CONSTANT); // 'some value'
+
+  constants.MY_CONSTANT = 'some other value';
+
+  console.log(constants.MY_CONSTANT); // 'some value'
+  ```
 
 ### web框架
 * express api [英文](http://expressjs.com/4x/api.html) [中文](http://www.expressjs.com.cn/4x/api.html)
