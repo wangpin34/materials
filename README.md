@@ -1,5 +1,5 @@
 # learning-materials
-前端开发学习资料
+前端开发学习资料，也包括移动平台，例如 react native， phonegap。
 
 ## 社区
 独学而无友，则孤陋而寡闻。
