@@ -81,6 +81,9 @@
 * [jade api] (http://jade-lang.com/reference/)
 * ejs
 
+### UI
+* [jquery UI](http://jqueryui.com/)
+
 ### 数据库
 * [sequelzie 官方文档](http://sequelize.readthedocs.org/en/latest/) sequelize是成熟的orm框架。
 
