@@ -24,13 +24,16 @@
 * [lucida] (http://zh.lucida.me/blog)
 * [司徒正美] (http://www.cnblogs.com/rubylouvre/)
 * [淘宝 ued] (http://ued.taobao.org/blog/)
+* [张鑫旭](http://www.zhangxinxu.com/)
 
-## javascript
+## 基础知识
 
-### 在线图书
+### javascript
+
+#### 在线图书
 * [ES6 入门](http://es6.ruanyifeng.com/)
 
-### 文档
+#### 文档
 * [q 文档](http://documentup.com/kriskowal/q/) q是功能强大的promise库，可以使用在浏览器和node。文档也阐述了一下promise的设计思想。
 * [underscore 文档](http://underscorejs.org/) 提供了很多函数的库，不同的是，它并没有修改任何原生的对象，比较干净。
 * 代码风格
@@ -38,7 +41,14 @@
   代码风格仅供参考，只要结构清晰，易于阅读，任何代码风格都是可以的。但是风格一致是非常必要的。
   * [google js style](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 
-## nodejs
+### html
+
+### css
+
+### http
+* [status code 定义](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
+
+### nodejs
 * [node 7天教程](http://www.lvtao.net/content/book/node.js.htm)
 * [node 从零开始系列文章] (http://blog.fens.me/series-nodejs/)
 * [best practices](http://www.innofied.com/node-js-best-practices/)
@@ -62,11 +72,14 @@
   console.log(constants.MY_CONSTANT); // 'some value'
   ```
 
+## 框架，解决方案
+
 ### web框架
 * express api [英文](http://expressjs.com/4x/api.html) [中文](http://www.expressjs.com.cn/4x/api.html)
 
 ### html模板
 * [jade api] (http://jade-lang.com/reference/)
+* ejs
 
 ### 数据库
 * [sequelzie 官方文档](http://sequelize.readthedocs.org/en/latest/) sequelize是成熟的orm框架。
@@ -77,38 +90,30 @@
 * [sinon 官方文档](http://sinonjs.org/docs/) 用于在测试中模拟数据库，http和任何你想要模拟的函数
 * [chai 官方文档](http://chaijs.com/) 简单好用的断言库
 
+## 拓展
 
-## css
-
-
-## html
-
-## 浏览器
+### 浏览器
 
 了解浏览器的细节，特性。
 
 ### 显示文档，图片
 * [如何在浏览器中显示word文档] (http://stackoverflow.com/questions/9418850/how-to-display-a-word-document-using-fancybox)
 
-## 优化
+### 优化
 
 * ***前端优化是一个循序渐进的过程***。
 * ***只要适合当前技术和业务的优化方案，就是好的方案***。
 
-## 架构
+### 架构
 * [理解RESTful架构] (http://www.ruanyifeng.com/blog/2011/09/restful)
 
-
-## http
-* [status code 定义] (http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
-
-## 网络
+### 网络
 * [不同网段的访问问题](http://networkengineering.stackexchange.com/questions/10530/ping-between-different-subnet-across-a-link)
 
-## 算法
+### 算法
 
 
-## 操作系统
+### 操作系统
 
 
 
