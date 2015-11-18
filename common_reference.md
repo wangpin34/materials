@@ -3,6 +3,8 @@
 ## html
 * [html实体](http://www.w3school.com.cn/tags/html_ref_entities.html)
 
+## jquery
+* [官方文档](http://api.jquery.com/on/)
 
 ## nodejs
 * [API](https://nodejs.org/api/)
