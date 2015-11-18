@@ -4,12 +4,12 @@
 * [html实体](http://www.w3school.com.cn/tags/html_ref_entities.html)
 
 ## jquery
-* [官方文档](http://api.jquery.com/on/)
+* [官方](http://api.jquery.com/on/)
 
 ## nodejs
 * [API](https://nodejs.org/api/)
 
 
 ## android
-* [官方文档](http://wear.techbrood.com/reference/android/package-summary.html)
+* [官方](http://wear.techbrood.com/reference/android/package-summary.html)
 * [国内镜像](http://wear.techbrood.com/reference/android/package-summary.html)
