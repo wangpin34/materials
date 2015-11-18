@@ -12,5 +12,5 @@
 
 
 ## android
-* [官方](http://wear.techbrood.com/reference/android/package-summary.html)
+* [官方](http://developer.android.com/reference/org/w3c/dom/Document.html)
 * [国内镜像](http://wear.techbrood.com/reference/android/package-summary.html)
