@@ -1,6 +1,9 @@
 # learning-materials
 前端开发学习资料，也包括移动平台，例如 react native， phonegap。
 
+## 电子书
+* [it-ebooks](http://www.it-ebooks.info/)
+
 ## 社区
 独学而无友，则孤陋而寡闻。
 * [stackoverflow](http://stackoverflow.com/) 绝对是最权威的技术社区，有很多精品问题。大神很多。
