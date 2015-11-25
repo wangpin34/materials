@@ -1,5 +1,8 @@
 # 常用参考文档
 
+## 标准API
+* [MDN](https://developer.mozilla.org/en-US/docs/)
+
 ## html
 * [html实体](http://www.w3school.com.cn/tags/html_ref_entities.html)
 
