@@ -2,6 +2,7 @@
 
 ## 标准API
 * [MDN](https://developer.mozilla.org/en-US/docs/)
+* [events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 ## html
 * [html实体](http://www.w3school.com.cn/tags/html_ref_entities.html)
