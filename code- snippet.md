@@ -22,8 +22,8 @@ function handleClick(event){
   //do something
 }
 
-<button onclick="handleClick(event)"></button>
-<button onclick="handleClick()"></button>
+<button onclick="handleClick(event)">pass event</button>
+<button onclick="handleClick()">don't pass event</button>
 ```
 有的浏览器必须显示传递 event 对象给处理函数，比如 firefox，有的浏览器不需要，因为 event 对象已经存储到 window 下，比如低版本的 ie。chrome 和较新版本的 ie 同时支持这两种风格。
 
