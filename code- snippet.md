@@ -27,5 +27,12 @@ function handleClick(event){
 ```
 有的浏览器必须显示传递 event 对象给处理函数，比如 firefox，有的浏览器不需要，因为 event 对象已经存储到 window 下，比如低版本的 ie。chrome 和较新版本的 ie 同时支持这两种风格。
 
+* 数组元素去重
+```javascript
+function uniq2Array(arr) { 
+    return arr.filter(function(v, index) { return arr.indexOf(v)=== index})
+}
+```
+
 # nodejs
 
