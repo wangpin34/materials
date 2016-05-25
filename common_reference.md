@@ -14,7 +14,10 @@
 * [API](https://nodejs.org/api/)
 * [npm doc](https://docs.npmjs.com/)
 
-
 ## android
 * [官方](http://developer.android.com/reference/org/w3c/dom/Document.html)
 * [国内镜像](http://wear.techbrood.com/reference/android/package-summary.html)
+
+## cordova
+* [官方](https://cordova.apache.org/docs/en/latest/guide/overview/index.html)
+* [官方|中文繁体](https://cordova.apache.org/docs/zh-tw/latest/guide/overview/index.html)
