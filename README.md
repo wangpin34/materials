@@ -120,6 +120,7 @@
 
 
 ### 操作系统
-
+* [鸟哥linux基础篇](http://vbird.dic.ksu.edu.tw/linux_basic/linux_basic.php)
+* [鸟哥linux服务器篇](http://vbird.dic.ksu.edu.tw/linux_server/)
 
 
