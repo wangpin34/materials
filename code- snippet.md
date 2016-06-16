@@ -13,6 +13,10 @@
 ```
 <link rel="icon" href="D:/workspace/I.jpg" type="image/x-icon">
 ```
+* viewport
+```
+
+```
 
 # js
 * 兼容性的 event
@@ -33,6 +37,12 @@ function uniq2Array(arr) {
     return arr.filter(function(v, index) { return arr.indexOf(v)=== index})
 }
 ```
+* 日期
+  * 字符串转日期
+  * 日期转字符串
+  * n天前 or n天后
+
+* 
 
 # nodejs
 
