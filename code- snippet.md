@@ -1,6 +1,6 @@
-# css
+# CSS
 
-# html
+# HTML
 * 外部css
 ```
 <link rel="stylesheet" type="text/css" href="style.css" >
@@ -18,7 +18,7 @@
 
 ```
 
-# js
+# Javascript
 * 兼容性的 event
 ```
 function handleClick(event){
@@ -55,5 +55,11 @@ function uniq2Array(arr) {
 
 * 
 
-# nodejs
+# Nodejs
 
+# Android
+* 显示外部（不是res文件中的）图片
+```
+ Bitmap myBitmap = BitmapFactory.decodeFile(path);
+ imageView.setImageBitmap(myBitmap);
+```
