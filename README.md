@@ -75,7 +75,12 @@
   console.log(constants.MY_CONSTANT); // 'some value'
   ```
 
-## 框架，解决方案
+## 框架
+
+### 前端组件相关
+* [react]()
+* [react-native]()
+* [redux](http://redux.js.org/docs/introduction/)
 
 ### web框架
 * express api [英文](http://expressjs.com/4x/api.html) [中文](http://www.expressjs.com.cn/4x/api.html)
