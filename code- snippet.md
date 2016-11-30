@@ -13,9 +13,9 @@
 ```
 <link rel="icon" href="D:/workspace/I.jpg" type="image/x-icon">
 ```
-* viewport
+* viewport for mobile
 ```
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
 # Javascript
