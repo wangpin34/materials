@@ -1,16 +1,15 @@
-# learning-materials
-前端开发学习资料，也包括移动平台，例如 react native， phonegap。
+# 全端工程师学习资料
 
 ## 电子书
 * [it-ebooks](http://www.it-ebooks.info/)
 
 ## 社区
 独学而无友，则孤陋而寡闻。
-* [stackoverflow](http://stackoverflow.com/) 绝对是最权威的技术社区，有很多精品问题。大神很多。
-* [前端网](http://www.w3cfuns.com/portal.php) 专业的前端社区，可以看到很多优秀的前端作品
+* [stackoverflow](http://stackoverflow.com/)
+* [前端网](http://www.w3cfuns.com/portal.php)
 * [cnode](https://cnodejs.org/) [网站代码](https://github.com/cnodejs/nodeclub/)
 * [nodejs 中文社区](http://www.nodejs.net/)
-* [segmentfault](http://segmentfault.com/)中文版的stackoverflow
+* [segmentfault](http://segmentfault.com/)
 
 ## 在线学习
 * [w3school](http://www.w3school.com.cn/index.html)
