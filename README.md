@@ -13,7 +13,7 @@
 * [segmentfault](http://segmentfault.com/)中文版的stackoverflow
 
 ## 在线学习
-* [w3school](http://www.w3school.com.cn/index.html) 简单朴素，不罗嗦。
+* [w3school](http://www.w3school.com.cn/index.html)
 
 ## 热门博客
 排名不分先后
@@ -33,16 +33,11 @@
 
 ### javascript
 
-#### 在线图书
+#### 书单
 * [ES6 入门](http://es6.ruanyifeng.com/)
-
-#### 文档
-* [q 文档](http://documentup.com/kriskowal/q/) q是功能强大的promise库，可以使用在浏览器和node。文档也阐述了一下promise的设计思想。
-* [underscore 文档](http://underscorejs.org/) 提供了很多函数的库，不同的是，它并没有修改任何原生的对象，比较干净。
-* 代码风格
-
-  代码风格仅供参考，只要结构清晰，易于阅读，任何代码风格都是可以的。但是风格一致是非常必要的。
-  * [google js style](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
+* [eloquent javascript](http://eloquentjavascript.net/)
+## 编码规范
+* [google js style](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 
 ### html
 
@@ -81,9 +76,11 @@
 * [react]()
 * [react-native]()
 * [redux](http://redux.js.org/docs/introduction/)
+* [Rxjs](https://github.com/Reactive-Extensions/RxJS)
 
 ### web框架
-* express api [英文](http://expressjs.com/4x/api.html) [中文](http://www.expressjs.com.cn/4x/api.html)
+* Express api [英文](http://expressjs.com/4x/api.html) [中文](http://www.expressjs.com.cn/4x/api.html)
+* [Koa](https://github.com/koajs/koa)
 
 ### html模板
 * [jade api] (http://jade-lang.com/reference/)
@@ -103,9 +100,13 @@
 
 ## 拓展
 
-### 浏览器
+### 设计
+* [Material Design](https://material.io/guidelines/#)
+* [Dribbble](https://dribbble.com/)
+* [Huaban](http://huaban.com/)
 
-了解浏览器的细节，特性。
+### 浏览器
+* [Chromium](https://www.chromium.org/Home)
 
 ### 显示文档，图片
 * [如何在浏览器中显示word文档] (http://stackoverflow.com/questions/9418850/how-to-display-a-word-document-using-fancybox)
