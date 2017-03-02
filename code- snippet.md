@@ -3,6 +3,9 @@
 # HTML
 
 ```html
+<!DOCTYPE html>
+<html>
+<head>
 <meta name="application-name" content="snow white">
 <meta name="generator" content="wang pin">
 <meta name="description" content="Free Web tutorials">
@@ -16,7 +19,26 @@
 <link rel="icon" href="/assets/icon.ico" type="image/x-icon">
 <title></title>
 <link rel="stylesheet" type="text/css" href="style.css" >
+<style>
+ body {
+  margin: 0; /* Remove default margin */
+ }
+</style>
+</head>
+<body>
 
+</body>
+<script type="text/javascript" src="/js/a.js"></script>
+<script type="text/javascript" src="/js/a.js" async></script>
+<script type="text/javascript" src="/js/a.js" defer></script>
+<script type="text/javacript">
+ document.addEventListener('DOMContentLoaded', function(){})
+ window.onload = function(){}
+ window.on('load', function(){})
+ window.addEventListener('load', function(){})
+ document.onscroll = function(){}
+</script>
+</html>
 ```
 
 # Javascript
@@ -42,7 +64,7 @@ function addListener(element, eType, listener, useCapture){
      listener&&listener(event||window.event);
     }, useCapture)
   }else{
-    element.addEventListener('on' + eType, function(event){
+    element.attach('on' + eType, function(event){
      listener&&listener(event||window.event)
     })
   }
