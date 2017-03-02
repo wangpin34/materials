@@ -1,21 +1,22 @@
 # CSS
 
 # HTML
-* 外部css
-```
-<link rel="stylesheet" type="text/css" href="style.css" >
-```
-* content type
-```
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-```
-* icon
-```
-<link rel="icon" href="D:/workspace/I.jpg" type="image/x-icon">
-```
-* viewport for mobile
-```
+
+```html
+<meta name="application-name" content="snow white">
+<meta name="generator" content="wang pin">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="wang pin">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--HTML4 charset def-->
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<!--HTML5 charset def-->
+<meta charset="UTF-8">
+<link rel="icon" href="/assets/icon.ico" type="image/x-icon">
+<title></title>
+<link rel="stylesheet" type="text/css" href="style.css" >
+
 ```
 
 # Javascript
@@ -33,12 +34,18 @@ function handleClick(event){
 
 * listener
 ```javascript
-function addListener(el, envType, func){
-  if(!el) throw new Error('No element provided');
+function addListener(element, eType, listener, useCapture){
+  if(!element) throw new Error('No element provided');
   
-  (el.addEventListener || el.attachEvent)(envType, function(event){
-    func(event||window.event)
-  })
+  if(element.addEventListener){
+    element.addEventListener(eType, function(event){
+     listener&&listener(event||window.event);
+    }, useCapture)
+  }else{
+    element.addEventListener('on' + eType, function(event){
+     listener&&listener(event||window.event)
+    })
+  }
 }
 ```
 
