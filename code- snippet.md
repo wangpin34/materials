@@ -64,12 +64,24 @@ function addListener(element, eType, listener, useCapture){
      listener&&listener(event||window.event);
     }, useCapture)
   }else{
-    element.attach('on' + eType, function(event){
-     listener&&listener(event||window.event)
+    element.attachEvent('on' + eType, function(event){
+     listener&&listener(event||window.event);
     })
   }
 }
 ```
+ie 9 开始支持标准方式 [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+
+:blush: attachEvent/detachEvent 方式仅 ie6-10 支持。 [查看兼容性](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/attachEvent)
+
+:warning: 上面的代码虽然屏蔽了老版本 ie 和其他浏览器的差异，但是带来了一个问题，如何删除注册的 listener? 直接去删除 listener 实际上并无效果
+```
+var func = function(){};
+addListenern(dom, func);
+dom.removeEventListener(func)
+```
+因为真实注册的 listener 是一个外界不可知的匿名函数。那么，将这个匿名还是作为返回值交给外部，作为删除时的依据，可以吗？
+答案当然是可以，但是很丑陋。借用一下 jquery 的做法，我重新实现了一个更强大的 listener 管理，并使用到 [vue-scroll](https://github.com/wangpin34/vue-scroll/blob/2.0-compatible/lib/vue-scroll.js#L22~L96) 中。完整的代码记录在 [My Gist - Q](https://gist.github.com/wangpin34/e50bc75bc0e6c25dac9427d796b710dc)
 
 * 数组元素去重
 ```javascript
