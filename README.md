@@ -16,16 +16,16 @@
 
 ## 热门博客
 排名不分先后
-* [阮一峰的网络日志] (http://www.ruanyifeng.com/blog/)
-* [玉伯 lifesinger] (https://github.com/lifesinger/lifesinger.github.io/issues)
-* [粉丝日志] (http://blog.fens.me/)
-* [掌心] (http://www.zhanxin.info/)
-* [云路] (http://www.iyunlu.com/view/)
-* [张云龙] (https://github.com/fouber/blog)
-* [邱俊涛 I code it] (http://icodeit.org/)
-* [lucida] (http://zh.lucida.me/blog)
-* [司徒正美] (http://www.cnblogs.com/rubylouvre/)
-* [淘宝 ued] (http://ued.taobao.org/blog/)
+* [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+* [玉伯 lifesinger](https://github.com/lifesinger/lifesinger.github.io/issues)
+* [粉丝日志](http://blog.fens.me/)
+* [掌心](http://www.zhanxin.info/)
+* [云路](http://www.iyunlu.com/view/)
+* [张云龙](https://github.com/fouber/blog)
+* [邱俊涛 I code it](http://icodeit.org/)
+* [lucida](http://zh.lucida.me/blog)
+* [司徒正美](http://www.cnblogs.com/rubylouvre/)
+* [淘宝 ued](http://ued.taobao.org/blog/)
 * [张鑫旭](http://www.zhangxinxu.com/)
 
 ## 基础知识
