@@ -6,6 +6,7 @@
 
 ## html
 * [html实体](http://www.w3school.com.cn/tags/html_ref_entities.html)
+* [html5](https://www.w3.org/TR/html5/)
 
 ## jquery
 * [官方](http://api.jquery.com/on/)
