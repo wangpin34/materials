@@ -31,7 +31,7 @@
 <script type="text/javascript" src="/js/a.js"></script>
 <script type="text/javascript" src="/js/a.js" async></script>
 <script type="text/javascript" src="/js/a.js" defer></script>
-<script type="text/javacript">
+<script type="text/javascript">
  document.addEventListener('DOMContentLoaded', function(){})
  window.onload = function(){}
  window.on('load', function(){})
