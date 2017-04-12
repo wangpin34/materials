@@ -1,8 +1,85 @@
 # CSS
+## 覆盖默认样式
+* html 和 body 的宽高， body默认的外边距
+```css
+html,body {
+ width: 100%;
+ height: 100%;
+}
+
+body {
+ margin: 0;
+}
+
+```
+* ol,ul 默认的内边距
+```css
+ol,ul {
+  padding-left: 0;
+}
+```
+
+* li元素默认图标
+```css
+li {
+ list-style: none;
+}
+```
+* a元素默认样式
+```css
+a {
+text-decoration:none; //去掉下划线
+}
+
+//四个伪类
+a:link 初始
+
+a:hover 鼠标悬停时
+
+a:active 鼠标点击时
+
+a:visited 访问过
+```
+
+## 高阶选择器
+* n-th
+```css
+//注意索引从1开始
+span:first-child 选取第一个
+span:last-child 选取第一个
+span:nth-child(1) 选取第一个
+span:nth-child(0n+1) 选取第一个
+span:nth-child(odd) 选取索引为奇数的
+span:nth-child(even) 选取索引为偶数的
+span:nth-child(2n) 选取索引为偶数的
+span:nth-child(-n+3) 选取符合-n+3 表达式的
+
+注意以上选择器并不严格选择第n个span，如果要严格选择，请用下面的方式
+span:nth-of-type(n)
+span:first-of-type
+span:last-of-type
+```
+* focus / not / ...
+
+更详细的介绍 [MDN - Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+
+## 伪元素
+
+* after 和 before
+利用 after 清除浮动
+```
+div:after {
+  clear:both;
+  content:'.';
+  display:block;
+  width: 0;
+  height: 0;
+  visibility:hidden;
+}
+```
+
 
 # HTML
-
-```html
 <!DOCTYPE html>
 <html>
 <head>
