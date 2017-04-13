@@ -66,6 +66,7 @@ span:last-of-type
 ## 伪元素
 
 * after 和 before
+
 利用 after 清除浮动
 ```
 div:after {
@@ -80,6 +81,7 @@ div:after {
 
 
 # HTML
+```
 <!DOCTYPE html>
 <html>
 <head>
