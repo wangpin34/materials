@@ -173,13 +173,4 @@ function uniq2Array(arr) {
   * 日期转字符串
   * n天前 or n天后
 
-* 
 
-# Nodejs
-
-# Android
-* 显示外部（不是res文件中的）图片
-```java
- Bitmap myBitmap = BitmapFactory.decodeFile(path);
- imageView.setImageBitmap(myBitmap);
-```
