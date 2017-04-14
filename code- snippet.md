@@ -81,7 +81,7 @@ div:after {
 
 
 # HTML
-```
+```html
 <!DOCTYPE html>
 <html>
 <head>
