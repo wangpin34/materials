@@ -69,11 +69,14 @@
   console.log(constants.MY_CONSTANT); // 'some value'
   ```
 
+### Kotlin
+* [in android](https://kotlinlang.org/docs/tutorials/android-frameworks.html)
+
 ## 框架
 
 ### 前端组件相关
-* [react]()
-* [react-native]()
+* [react](https://facebook.github.io/react/)
+* [react-native](https://facebook.github.io/react-native/)
 * [redux](http://redux.js.org/docs/introduction/)
 * [Rxjs](https://github.com/Reactive-Extensions/RxJS)
 
@@ -82,7 +85,7 @@
 * [Koa](https://github.com/koajs/koa)
 
 ### html模板
-* [jade api] (http://jade-lang.com/reference/)
+* [jade api](http://jade-lang.com/reference/)
 * ejs
 
 ### UI
@@ -97,6 +100,12 @@
 * [sinon 官方文档](http://sinonjs.org/docs/) 用于在测试中模拟数据库，http和任何你想要模拟的函数
 * [chai 官方文档](http://chaijs.com/) 简单好用的断言库
 
+### Spring
+* [tools](https://spring.io/tools/sts/all)
+* [rest service](https://spring.io/guides/gs/rest-service/#initial)
+* [spring boot](https://projects.spring.io/spring-boot/#quick-start)
+* [cli](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#getting-started-installing-the-cli) 
+
 ## 拓展
 
 ### 设计
@@ -108,7 +117,7 @@
 * [Chromium](https://www.chromium.org/Home)
 
 ### 显示文档，图片
-* [如何在浏览器中显示word文档] (http://stackoverflow.com/questions/9418850/how-to-display-a-word-document-using-fancybox)
+* [如何在浏览器中显示word文档](http://stackoverflow.com/questions/9418850/how-to-display-a-word-document-using-fancybox)
 
 ### 优化
 
@@ -116,13 +125,12 @@
 * ***只要适合当前技术和业务的优化方案，就是好的方案***。
 
 ### 架构
-* [理解RESTful架构] (http://www.ruanyifeng.com/blog/2011/09/restful)
+* [理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful)
 
 ### 网络
 * [不同网段的访问问题](http://networkengineering.stackexchange.com/questions/10530/ping-between-different-subnet-across-a-link)
 
 ### 算法
-
 
 ### 操作系统
 * [鸟哥linux基础篇](http://vbird.dic.ksu.edu.tw/linux_basic/linux_basic.php)
