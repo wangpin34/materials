@@ -1,6 +1,7 @@
 ## 教程
 
 * [tour go 中文教程](https://tour.go-zh.org/welcome/1)
+* [godoc](https://godoc.org/)
 * [effective go](https://golang.org/doc/effective_go.html)
 
 ## 常用 LIB
