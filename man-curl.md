@@ -22,14 +22,14 @@ curl -XPATCH -H "Content-Type: application/json" /v1/users/abcd-efg -d '{"name":
 curl -XDELETE /v1/users/abcd-efg
 ```
 
-注：*上面为了叙述方便，省略了 API 的完整 URL, 比如 http://api.com/v1/users* 。
+注：*上面为了叙述方便，省略了完整 URL, 比如 http://api.com/v1/users* 。
 
 解释一下：
 * 默认使用 GET 方法。 -XPOST 表示 POST 方法，其他同理。 
 * -H 表示 Header， 如果有更多的 Header，可再添加 -H 选项。
 * -d 发送数据，数据的格式由 Content-Type 决定。
 
-如果要发送纯二级制数据，应该使用 --data-binary 选项
+如果要发送Byte数据，应该使用 --data-binary 选项
   
 ```
 --data-binary @icon.jpg
