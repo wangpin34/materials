@@ -1,6 +1,6 @@
 
 ## CURL
-CURL 常用语前端调试 HTTP API，相比 Postman, 使用 CURL 可以观察到更加详细的信息，并且在 Linux 平台上有更加广泛的支持，值得学习。
+CURL 常用于调试 HTTP API。相比 Postman, Linux 平台上有更加广泛的支持，而且使用 CURL 可以观察到更加详细的信息，值得学习。
 
 假设有以下几个 API
 
