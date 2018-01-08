@@ -62,6 +62,15 @@ options 是可选参数。可用的属性有以下几个：
 ### 插入数据
 
 
+## 导出和导入
+### 导出数据
+```
+mongodump -h ${host} --port ${port} --username ${username} --password ${password} -d ${db name} -o ${export path}
+```
+### 导入数据
+```
+mongorestore -d ${db name} ${data path}
+```
 
 
 * https://ianlondon.github.io/blog/mongodb-auth/
