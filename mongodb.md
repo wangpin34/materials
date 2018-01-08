@@ -61,16 +61,19 @@ options 是可选参数。可用的属性有以下几个：
 
 ### 插入数据
 
+collection 中的每条数据，称为 document，文档。 document 是一个 javascript 对象，可以使用 javascript 的数据类型作为自己的 property。property 也可以是一个 object，这样就构成了嵌套 document。
 
 ## 导出和导入
 ### 导出数据
 ```
 mongodump -h ${host} --port ${port} --username ${username} --password ${password} -d ${db name} -o ${export path}
 ```
+collection 的 metadata 保存为 json 文件， document 信息保存为 bson 文件。
 ### 导入数据
 ```
 mongorestore -d ${db name} ${data path}
 ```
+如果目标 db，collection 不存在，则会自动创建。
 
-
+# 参考文档
 * https://ianlondon.github.io/blog/mongodb-auth/
