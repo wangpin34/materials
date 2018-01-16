@@ -16,9 +16,9 @@ DELETE /v1/users/abcd-efg
 
 ```
 curl /v1/users
-curl -XPOST -H "Content-Type: application/json" /v1/users -d '{"name":"wangpin"}'
+curl -XPOST -H "Content-Type: application/json" -d '{"name":"wangpin"}' /v1/users 
 curl /v1/users/abcd-efg
-curl -XPATCH -H "Content-Type: application/json" /v1/users/abcd-efg -d '{"name":"wang pin"}'
+curl -XPATCH -H "Content-Type: application/json" -d '{"name":"wang pin"}' /v1/users/abcd-efg 
 curl -XDELETE /v1/users/abcd-efg
 ```
 
