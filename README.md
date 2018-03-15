@@ -27,6 +27,7 @@
 * [司徒正美](http://www.cnblogs.com/rubylouvre/)
 * [淘宝 ued](http://ued.taobao.org/blog/)
 * [张鑫旭](http://www.zhangxinxu.com/)
+* [QUQU](https://imququ.com/)
 
 ## 基础知识
 
@@ -34,7 +35,7 @@
 
 #### 书单
 * [ES6 入门](http://es6.ruanyifeng.com/)
-* [eloquent javascript](http://eloquentjavascript.net/)
+* [eloquent javascript | 雄辩的 javascript ](http://eloquentjavascript.net/)
 ## 编码规范
 * [google js style](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 
