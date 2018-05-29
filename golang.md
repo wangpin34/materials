@@ -4,7 +4,29 @@
 * [godoc](https://godoc.org/)
 * [effective go](https://golang.org/doc/effective_go.html)
 
-## 常用 Lib
+## 常用 function
+### 数组
+```
+func StringInSlice(a string, list []string) bool {
+	if list == nil || len(list) == 0 {
+		return false
+	}
+
+	for _, b := range list {
+		if b == a {
+			return true
+		}
+	}
+	return false
+}
+```
+### 类型转换
+```
+func IntToStr (input int) string {
+	return strconv.Itoa(input)
+}
+```
+
 ### 数据库
 * [pq](https://godoc.org/github.com/lib/pq) Postgres
 * [mgo](https://labix.org/mgo) Mongodb
