@@ -1,8 +1,5 @@
 # 全栈工程师学习资料
 
-## 电子书
-* [it-ebooks](http://www.it-ebooks.info/) Most books are not available 
-
 ## 社区
 独学而无友，则孤陋而寡闻。
 * [stackoverflow](http://stackoverflow.com/)
@@ -36,6 +33,8 @@
 #### 书单
 * [ES6 入门](http://es6.ruanyifeng.com/)
 * [eloquent javascript | 雄辩的 javascript ](http://eloquentjavascript.net/)
+* [it-ebooks](http://www.it-ebooks.info/) Most books are not available
+* [CSS.Secrets](https://res.wisedu.com/FS/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%97%A8/3.%20CSS.Secrets.Better.Solutions.to.Everyday.Web.Design.Problems.pdf)
 ## 编码规范
 * [google js style](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 
