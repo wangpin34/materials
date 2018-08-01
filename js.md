@@ -21,3 +21,24 @@ var length = Array.prototype.push.apply(array1, array2); //返回值是array1的
 ```javascript
 nodelist = Array.prototype.slice.call(nodelist, 0);
 ```
+
+* 获取页面 url 的 query 参数
+```javascript
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+//usage
+// query string: ?foo=lorem&bar=&baz
+var foo = getParameterByName('foo'); // "lorem"
+var bar = getParameterByName('bar'); // "" (present with empty value)
+var baz = getParameterByName('baz'); // "" (present with no value)
+var qux = getParameterByName('qux'); // null (absent)
+```
+来源:[https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript](https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript)
