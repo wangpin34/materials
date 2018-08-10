@@ -27,24 +27,25 @@
 * [张鑫旭](http://www.zhangxinxu.com/)
 * [QUQU](https://imququ.com/)
 
-## 基础知识
+## 学习资料
 
-### javascript
-
-#### 书单
+### 基础知识
 * [ES6 入门](http://es6.ruanyifeng.com/)
 * [eloquent javascript | 雄辩的 javascript ](http://eloquentjavascript.net/)
 * [it-ebooks](http://www.it-ebooks.info/) Most books are not available
 * [CSS.Secrets](https://res.wisedu.com/FS/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%97%A8/3.%20CSS.Secrets.Better.Solutions.to.Everyday.Web.Design.Problems.pdf)
-## 编码规范
 * [google js style](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
-
-### html
-
-### css
-
-### http
+* [google web fundamentals](https://developers.google.com/web/fundamentals/)
 * [status code 定义](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
+
+### 数据库
+* [sequelzie 官方文档](http://sequelize.readthedocs.org/en/latest/) sequelize是成熟的orm框架。
+
+### 单元测试
+* [Testing With Mocha, Sinon.js & Mocking Request](http://bulkan-evcimen.com/testing_with_mocha_sinon)
+* [node 单元测试入门](http://blog.csdn.net/wp270280522/article/details/48734409) 鄙人写的小文章
+* [sinon 官方文档](http://sinonjs.org/docs/) 用于在测试中模拟数据库，http和任何你想要模拟的函数
+* [chai 官方文档](http://chaijs.com/) 简单好用的断言库
 
 ### nodejs
 * [node 7天教程](http://www.lvtao.net/content/book/node.js.htm)
@@ -70,10 +71,7 @@
   console.log(constants.MY_CONSTANT); // 'some value'
   ```
 
-### Kotlin
-* [in android](https://kotlinlang.org/docs/tutorials/android-frameworks.html)
-
-## 框架
+## 开发应用
 
 ### 前端组件相关
 * [react](https://facebook.github.io/react/)
@@ -85,6 +83,9 @@
 * Express api [英文](http://expressjs.com/4x/api.html) [中文](http://www.expressjs.com.cn/4x/api.html)
 * [Koa](https://github.com/koajs/koa)
 
+### 移动端
+* [kotlin lang](https://kotlinlang.org/docs/tutorials/android-frameworks.html)
+
 ### html模板
 * [jade api](http://jade-lang.com/reference/)
 * ejs
@@ -92,14 +93,6 @@
 ### UI
 * [jquery UI](http://jqueryui.com/)
 
-### 数据库
-* [sequelzie 官方文档](http://sequelize.readthedocs.org/en/latest/) sequelize是成熟的orm框架。
-
-### 单元测试
-* [Testing With Mocha, Sinon.js & Mocking Request](http://bulkan-evcimen.com/testing_with_mocha_sinon)
-* [node 单元测试入门](http://blog.csdn.net/wp270280522/article/details/48734409) 鄙人写的小文章
-* [sinon 官方文档](http://sinonjs.org/docs/) 用于在测试中模拟数据库，http和任何你想要模拟的函数
-* [chai 官方文档](http://chaijs.com/) 简单好用的断言库
 
 ### Spring
 * [tools](https://spring.io/tools/sts/all)
