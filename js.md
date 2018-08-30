@@ -1,3 +1,4 @@
+## 数组操作
 * 去除重复元素
 ```javascript
 array.filter(function(value, index){
@@ -21,7 +22,7 @@ var length = Array.prototype.push.apply(array1, array2); //返回值是array1的
 ```javascript
 nodelist = Array.prototype.slice.call(nodelist, 0);
 ```
-
+## url 处理
 * 获取页面 url 的 query 参数
 ```javascript
 function getParameterByName(name, url) {
@@ -42,3 +43,34 @@ var baz = getParameterByName('baz'); // "" (present with no value)
 var qux = getParameterByName('qux'); // null (absent)
 ```
 来源:[https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript](https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript)
+
+## 禁用浏览器 Action
+
+* 禁用拖拽文件在浏览器打开
+```
+  //Disable dropped file from opening in window
+  //https://github.com/electron/electron/issues/908
+  document.addEventListener('drop', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+  });
+  document.addEventListener('dragover', function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+  });
+```
+* 关闭 context menu
+```
+  //Disable context menu
+  document.addEventListener('contextmenu', event => {
+    event.preventDefault();
+    event.stopPropagation();
+  });
+```
+* 禁止双击选中
+```
+  //Disable double click selection
+  document.addEventListener('mousedown', e => {
+    e.preventDefault();
+  })
+```
