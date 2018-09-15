@@ -68,9 +68,23 @@ var qux = getParameterByName('qux'); // null (absent)
   });
 ```
 * 禁止双击选中
-```
+```javascript
   //Disable double click selection
   document.addEventListener('mousedown', e => {
     e.preventDefault();
   })
+```
+或者利用 onselectstart 事件，直接在 html 标签上
+```html
+<section onselectstart="return false">不要复制我</section>
+```
+也可以使用 css
+```css
+div {
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览器*/
+    user-select:none;
+}
 ```
