@@ -44,6 +44,14 @@ var qux = getParameterByName('qux'); // null (absent)
 ```
 来源:[https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript](https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript)
 
+## 事件处理
+### Re dispatch 
+```javascript
+new_e = new e.constructor(e.type, e);
+document.getElementById("decoy").dispatchEvent(new_e);
+```
+https://stackoverflow.com/questions/11974262/how-to-clone-or-re-dispatch-dom-events/20541207
+
 ## 禁用浏览器 Action
 
 * 禁用拖拽文件在浏览器打开
