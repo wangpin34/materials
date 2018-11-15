@@ -39,13 +39,13 @@
 * [status code 定义](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html)
 
 ### 数据库
-* [sequelzie 官方文档](http://sequelize.readthedocs.org/en/latest/) sequelize是成熟的orm框架。
+* [sequelzie](http://sequelize.readthedocs.org/en/latest/) sequelize是成熟的orm框架。
 
 ### 单元测试
 * [Testing With Mocha, Sinon.js & Mocking Request](http://bulkan-evcimen.com/testing_with_mocha_sinon)
 * [node 单元测试入门](http://blog.csdn.net/wp270280522/article/details/48734409) 鄙人写的小文章
-* [sinon 官方文档](http://sinonjs.org/docs/) 用于在测试中模拟数据库，http和任何你想要模拟的函数
-* [chai 官方文档](http://chaijs.com/) 简单好用的断言库
+* [sinon](http://sinonjs.org/docs/) 用于在测试中模拟数据库，http和任何你想要模拟的函数
+* [chai](http://chaijs.com/) 简单好用的断言库
 
 ### nodejs
 * [node 7天教程](http://www.lvtao.net/content/book/node.js.htm)
@@ -75,19 +75,22 @@
 
 ### 前端组件相关
 * [react](https://facebook.github.io/react/)
+* [vue](https://github.com/vuejs/vue)
+* [angular](https://github.com/angular/angular)
 * [react-native](https://facebook.github.io/react-native/)
 * [redux](http://redux.js.org/docs/introduction/)
 * [Rxjs](https://github.com/Reactive-Extensions/RxJS)
 
 ### web框架
-* Express api [英文](http://expressjs.com/4x/api.html) [中文](http://www.expressjs.com.cn/4x/api.html)
+* [Express](http://expressjs.com/)
 * [Koa](https://github.com/koajs/koa)
 
 ### 移动端
 * [kotlin lang](https://kotlinlang.org/docs/tutorials/android-frameworks.html)
 
 ### html模板
-* [jade api](http://jade-lang.com/reference/)
+* [jade](http://jade-lang.com/reference/) 由于商标问题， jade 已经改名为 pug
+* [pug]
 * ejs
 
 ### UI
