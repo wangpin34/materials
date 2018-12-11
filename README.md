@@ -1,5 +1,10 @@
 # 全栈工程师学习资料
 
+## 规范（spec/rec）
+* https://blog.whatwg.org/
+* https://dom.spec.whatwg.org/
+* https://html.spec.whatwg.org/
+
 ## 社区
 独学而无友，则孤陋而寡闻。
 * [stackoverflow](http://stackoverflow.com/)
