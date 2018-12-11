@@ -1,6 +1,6 @@
 # 全栈工程师学习资料
 
-## 规范（spec/rec）
+## 规范（spec/rfc）
 * https://blog.whatwg.org/
 * https://dom.spec.whatwg.org/
 * https://html.spec.whatwg.org/
