@@ -34,7 +34,6 @@
 * [掌心](http://www.zhanxin.info/)
 * [云路](http://www.iyunlu.com/view/)
 * [邱俊涛 I code it](http://icodeit.org/)
-* [lucida](http://zh.lucida.me/blog)
 * [淘宝 ued](http://ued.taobao.org/blog/)
 * [QUQU](https://imququ.com/)
 
