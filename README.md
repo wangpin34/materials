@@ -74,8 +74,8 @@
 
 ### 模板引擎
 * [jade](http://jade-lang.com/reference/) 由于商标问题， jade 已经改名为 pug
-* [pug]
-* ejs
+* [pug](https://github.com/pugjs/pug)
+* [ejs](https://github.com/tj/ejs)
 
 ### Great Spring
 java/spring 依然是后台微服务首选。
