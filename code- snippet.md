@@ -79,6 +79,17 @@ div:after {
 }
 ```
 
+## Reset auto complete input 样式
+```css
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+```
+
 
 # HTML
 ```html
