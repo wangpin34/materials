@@ -1,5 +1,5 @@
 # CSS
-## 覆盖默认样式
+## 常用 Reset
 * html 和 body 的宽高， body默认的外边距
 ```css
 html,body {
@@ -79,7 +79,8 @@ div:after {
 }
 ```
 
-## Reset auto complete input 样式
+## Auto complete input 样式
+有时候需要隐藏 autocomplete 背景色（极少）。
 ```css
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
@@ -90,6 +91,22 @@ input:-webkit-autofill:active {
 
 ```
 
+
+## 其他
+```
+caret-color： red；  //输入框光标颜色
+
+//选中文字的颜色
+::-moz-selection { /* Code for Firefox */
+  color: red;
+  background: yellow;
+}
+
+::selection {
+  color: red; 
+  background: yellow;
+}
+```
 
 # HTML
 ```html
