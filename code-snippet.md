@@ -68,7 +68,7 @@ span:last-of-type
 * after 和 before
 
 利用 after 清除浮动
-```
+```css
 div:after {
   clear:both;
   content:'.';
@@ -93,7 +93,7 @@ input:-webkit-autofill:active {
 
 
 ## 其他
-```
+```css
 caret-color： red；  //输入框光标颜色
 
 //选中文字的颜色
