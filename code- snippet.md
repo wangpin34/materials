@@ -118,7 +118,8 @@ caret-color： red；  //输入框光标颜色
 <meta name="description" content="Free Web tutorials">
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <meta name="author" content="wang pin">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, shrink-to-fit=no, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
 <!--HTML4 charset def-->
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <!--HTML5 charset def-->
