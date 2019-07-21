@@ -33,3 +33,9 @@ document.querySelector
 document.querySelectorAll
 ```
 注意，搜索结果不止一个时，返回的是**类数组**对象
+
+## 删除 Node(s)
+```javascript
+function removeNode(node){node.parentElement.remove(node)}
+function removeSelected(selector) {const nodes = document.querySelectorAll(selector); if(nodes && nodes.length) {Array.prototype.forEach.call(nodes, removeNode)}}
+```
