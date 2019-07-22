@@ -36,6 +36,14 @@ document.querySelectorAll
 
 ## 删除 Node(s)
 ```javascript
-function removeNode(node){node.parentElement.remove(node)}
-function removeSelected(selector) {const nodes = document.querySelectorAll(selector); if(nodes && nodes.length) {Array.prototype.forEach.call(nodes, removeNode)}}
+function removeNode(node){
+  node.parentElement.remove(node)
+}
+
+function removeSelected(selector) {
+  const nodes = document.querySelectorAll(selector);
+  if(nodes && nodes.length) {
+    Array.prototype.forEach.call(nodes, removeNode)
+  }
+}
 ```
