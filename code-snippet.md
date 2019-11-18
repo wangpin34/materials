@@ -203,3 +203,16 @@ function uniq2Array(arr) {
   * n天前 or n天后
 
 
+* download
+```javascript
+function download(text, name, type) {
+  var a = document.createElement('a')
+  a.style.display = "block";
+  var file = new Blob([text], {type: type});
+  a.href = URL.createObjectURL(file);
+  a.download = name;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+```
