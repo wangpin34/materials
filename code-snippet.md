@@ -1,5 +1,10 @@
 # CSS
-## 常用 Reset
+
+## Reset
+> css 的出现使得 html tag 本身所具备的大量外观属性成为鸡肋。因为，对于大部分希望在 web 页面上体现“性格”的开发人员来说，html tag 本身的外观是不重要的，甚至是必须要掩盖的东西。这也是为什么需要 css reset 的一个重要原因，先将 html tag 的外观属性抹掉，然后再用 css 重新装修。
+
+下面是一些常用的 reset rule，仅供参考，推荐引用通用的 reset 脚本[1](https://meyerweb.com/eric/tools/css/reset/)[2](https://gist.github.com/DavidWells/18e73022e723037a50d6)以代替手工编写。
+
 * html 和 body 的宽高， body默认的外边距
 ```css
 html,body {
@@ -31,7 +36,6 @@ a {
 text-decoration:none; //去掉下划线
 }
 
-//四个伪类
 a:link 初始
 
 a:hover 鼠标悬停时
@@ -41,33 +45,62 @@ a:active 鼠标点击时
 a:visited 访问过
 ```
 
-## 高阶选择器
-* n-th
-```css
-//注意索引从1开始
-span:first-child 选取第一个
-span:last-child 选取第一个
-span:nth-child(1) 选取第一个
-span:nth-child(0n+1) 选取第一个
-span:nth-child(odd) 选取索引为奇数的
-span:nth-child(even) 选取索引为偶数的
-span:nth-child(2n) 选取索引为偶数的
-span:nth-child(-n+3) 选取符合-n+3 表达式的
+## 伪类和伪元素
+伪类和伪元素不能独立存在，必须依附于某个具体的选择器相关的元素。比如：
+div:hover，表示当鼠标悬停在 div 上时，选中 div。
 
-注意以上选择器并不严格选择第n个span，如果要严格选择，请用下面的方式
-span:nth-of-type(n)
-span:first-of-type
-span:last-of-type
+### 伪类
+伪类是选择元素的某些特殊状态，比如悬停（:hover）。
+
+常用的有：:hover, :focus, :disabled,:nth-child,等等，这是完整的[索引](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes)。
+
+:nth-child(n) 和 :nth-of-type(n) 的区别：
+:nth-child(n) 选择的是父元素的第 n 个子元素。
+type:nth-child(n) 选择的是父元素的第 n 个子元素，且类型必须为 type。
+type:nth-of-type(n) 选择的是父元素的第 n 个类型为 type 的子元素。
+
+不制定 type 信息的 :nth-child 规则简单，指定类型之后，从字面上看起来，和 :nth-of-type 非常像，但其实完全不同。
+举个例子.
+html
+```html
+<div>
+  <span>span 1</span>
+  <span>span 2</span>
+  <em>em 1</em>
+  <span>span 3</span>
+</div>
 ```
-* focus / not / ...
+css
+```css
+div span:nth-child(3) {
+  background-color: yellow;
+}
+```
+你会发现第三个 span 完全没有被选中。
+如果换成这样：
+```css
+div span:nth-of-type(3) {
+  background-color: yellow;
+}
+```
+第三个 span 背景色就变黄色了。为什么这一次成功了呢? 回到最开始的定义：
+>type:nth-child(n) 选择的是父元素的第 n 个子元素，且类型必须为 type。
+type:nth-of-type(n) 选择的是父元素的第 n 个类型为 type 的子元素。
 
-更详细的介绍 [MDN - Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
+背后的逻辑是：span:nth-child(3) 会从四个子元素里找到第三个，发现是 em，随即丢弃。而 span:nth-of-type(3) 会先过过滤所有的 span 元素，从中查找第三个 span。
 
-## 伪元素
+总结一下对应用的启发：如果要选择绝对位置和类型必须同时满足的，使用 type:nth-child(n)，如果只需要选择相对位置是固定的而不介意中间夹杂其他元素，则使用 type:nth-of-type(n)。
 
-* after 和 before
+first-child,last-child 等等只是特定位置的方便方法，不多说。关于 n 的运用，比如选择奇数或偶数位置的子元素，详见 MDN 上的 [nth-child](https://developer.mozilla.org/zh-CN/docs/Web/CSS/:nth-child).
 
-利用 after 清除浮动
+
+
+### 伪元素
+
+> 伪元素是一个附加至选择器末的关键词，允许你对被选择元素的特定部分修改样式。
+
+最常见的应用是清除浮动
+
 ```css
 div:after {
   clear:both;
@@ -79,8 +112,13 @@ div:after {
 }
 ```
 
-## Auto complete input 样式
-有时候需要隐藏 autocomplete 背景色（极少）。
+详见 MDN [Preudo Elements](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-elements)
+
+## 其他
+较少使用的 css。
+
+### Auto complete input 样式
+有时候需要隐藏 autocomplete 背景色，比如chrome默认自动填充的内容，背景色为黄色。可以使用下列 css 定制。
 ```css
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
@@ -90,9 +128,7 @@ input:-webkit-autofill:active {
 }
 
 ```
-
-
-## 其他
+### 输入选项
 ```css
 caret-color： red；  //输入框光标颜色
 
